@@ -61,16 +61,16 @@
     <ul id="wordGraveyard" class="list-unstyled lead"></ul>
 
     <!-- Reset and Continue Buttons -->
-    <div id="resetContinueContainer">
-      <button class="reset-btn btn btn-danger btn-lg mb-3" onclick="resetGame()">New Game</button>
-      <button class="continue-btn btn btn-warning btn-lg" onclick="continueGame()">Continue Game</button>
+    <div id="victoryButtons" class="mt-4 d-flex justify-content-center gap-4 flex-wrap">
+      <button class="victory-btn btn btn-success btn-lg" onclick="continueGame()">Continue Game</button>
+      <button class="victory-btn btn btn-danger btn-lg" onclick="resetGame()">New Game</button>
     </div>
-  </div>
 
-  <audio id="correctSound" src="successed-295058 (1).mp3"></audio>
-  <audio id="wrongSound" src="buzzer-or-wrong-answer-20582 (1).mp3"></audio>
 
-  <script src="script.js"></script>
+    <audio id="correctSound" src="successed-295058 (1).mp3"></audio>
+    <audio id="wrongSound" src="buzzer-or-wrong-answer-20582 (1).mp3"></audio>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
